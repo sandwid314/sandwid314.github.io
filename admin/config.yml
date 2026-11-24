@@ -1,0 +1,21 @@
+backend:
+  name: turbo-github
+  turbo_site_id: ISI-SITE-ID-DARI-LANGKAH-3
+  branch: main
+
+media_folder: "assets/img/posts"
+public_folder: "/assets/img/posts"
+
+collections:
+  - name: "posts"
+    label: "Posting"
+    folder: "_posts"
+    create: true
+    extension: "md"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Tanggal", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ" }
+      - { label: "Kategori", name: "categories", widget: "list" }
+      - { label: "Tag", name: "tags", widget: "list", required: false }
+      - { label: "Isi", name: "body", widget: "markdown" }
