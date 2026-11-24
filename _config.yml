@@ -37,9 +37,10 @@ social:
   name: Sandy
   email: # dikosongkan
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
-  # `links` sengaja dikosongkan (jangan diisi) supaya nama di footer tampil tanpa tautan.
-  # Kalau diisi, elemen pertama menjadi tautan pada nama di footer.
   links:
+    # Elemen pertama dipakai sebagai tautan nama penulis di setiap posting.
+    # JANGAN dikosongkan: tautan kosong membuat htmlproofer gagal.
+    - https://github.com/sandwid314
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
