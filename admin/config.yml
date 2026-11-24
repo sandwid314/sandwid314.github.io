@@ -1,6 +1,6 @@
 backend:
   name: turbo-github
-  turbo_site_id: ISI-SITE-ID-DARI-LANGKAH-3
+  turbo_site_id: 0b9860ab-5cfe-4c1f-a6fd-d776b9c658ce
   branch: main
 
 media_folder: "assets/img/posts"
